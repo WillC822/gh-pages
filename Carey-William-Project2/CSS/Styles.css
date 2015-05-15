@@ -6,10 +6,11 @@ body {
 	font-style: normal;
 	line-height:15px;
 	border-width:2px;
-	border-color: rgba(30,30,31,0.25)
+	border-color: rgba(30,30,31,0.25);
 	padding: 20px;
 	border-radius: 3px;
 	width:900px;
+	margin:2px;
 	
 }
 
@@ -19,30 +20,20 @@ body {
   	font-weight: 400;
 }
 
-header{
-	
-}
-
 ul {
 	list-style-type: none;
 }
 
-nav{
-	width:250px, auto;
-}
-
 li {
 	display: inline-block;
-	width:250px, auto;
 }
 
-h1, h2, h3, h4, a, em, strong {
+h1, h2, h3, h4, a, em, strong{
 	font-family: 'Roboto Slab', serif;
 	font-weight: normal;
-	color:rgba(255,241,206,0.5):;
-	padding:6px,auto;
-	margin: 3px,auto;
-	box-shadow:2px,#000;
+	color:rgba(255,241,206,0.5);
+	padding: 6px auto;
+	margin: 3px auto;
 	text-align:center;
 	text-shadow:2px;	
 }
@@ -50,16 +41,20 @@ h1, h2, h3, h4, a, em, strong {
 p{
 	font-family: 'Roboto Slab', serif;
 	font-weight: light;
-	text-align:center;
-	padding:3px,auto;
-	margin:3px,auto;
+	padding:3px auto;
+	margin:3px auto;
+	height:50px;
 }
 
-#Images{
-	border-color:rgba(30,30,31,0.5);
-	border-radius:3px;
-	box-shadow:3px;
-	margin:410px,auto;
+aside{
+	display:inline-block;
+}
+
+Images{
+	border-color:rgba(30,30,31,1);
+	border-width:10px;
+	box-shadow:1px 1px 1px 1px #000);
+	border-radius:25px
 }
 
 a:link	{
@@ -75,5 +70,5 @@ a:hover {
 }
 a:active {
 	color: rgba(2,40,89,0.5;
-	text-decoration:bold;
+	text-decoration:underline;
 }
