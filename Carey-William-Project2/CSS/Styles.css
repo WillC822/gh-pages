@@ -2,7 +2,7 @@
 	font-family: 'Roboto Slab';
   	font-style: normal;
   	font-weight: 400;
-
+}
 
 body {
 	background-color: #807F83;
@@ -16,7 +16,7 @@ body {
 	padding: 20px;
 	border-radius: 3px;
 	width:900px;
-	margin:2px;
+	margin:2px auto;
 	
 }
 
@@ -36,6 +36,7 @@ h1, h2, h3, h4, a, em, strong{
 	margin: 3px auto;
 	text-align:center;
 	text-shadow:2px;	
+	font-style:italic;
 }
 
 p{
@@ -53,7 +54,7 @@ aside{
 Images{
 	border-color:rgba(30,30,31,1);
 	border-width:10px;
-	box-shadow:1px 1px 1px 1px #000);
+	box-shadow:1px 1px 1px 1px);
 	border-radius:25px
 }
 
@@ -69,6 +70,6 @@ a:hover {
 	text-decoration: underline;
 }
 a:active {
-	color: rgba(2,40,89,0.5;
+	color: rgba(2,40,89,0.5);
 	text-decoration:underline;
 }
