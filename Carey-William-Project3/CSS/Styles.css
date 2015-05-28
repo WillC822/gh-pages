@@ -22,12 +22,12 @@ body {
 
 
 ul {
-	width: 500px;
+	width: 80%;
 	overflow:auto;
 }
 
 #page{
-	width:960px;
+	width:95%;
 	border: 5px solid #000;
 	padding: 20px;
 	margin: 10px auto;
@@ -38,7 +38,7 @@ ul {
 
 #logo{
 	margin: 10px auto;
-	width:303px;
+	width:30%;
 }
 
 #navigation li {
@@ -46,7 +46,7 @@ ul {
 }
 
 #navigation {
-	width:625px;
+	width:30%;
 	border-top:2px double #000;
 	border-bottom:1px double #000;
 	padding:15px;
@@ -66,13 +66,19 @@ h1{
 }
 
 h2, h3, h4, a, em, strong{
-
+	font-family: 'Roboto Slab', serif;
+	color:rgba(255,241,206,0.5);
+	padding: 4px auto;
+	margin: 3px auto;
+	text-align:center;
+	text-shadow:2px;	
+	font-style:italic;
 }
 
 
 
 p{
-	width:200px
+	width:65%;
 	font-family: 'Roboto Slab', serif;
 	font-weight: light;
 	padding:3px auto;
@@ -81,7 +87,7 @@ p{
 }
 
 #redCar {
-	float: right;
+	float:right;
 	margin:20px;
 }
 
@@ -115,22 +121,22 @@ a:active {
 
 #carsIDrive {
 	float:left;
-	width:250px;
+	width:85%;
 	margin: 10px;
 	
 }
 
 #carHistory {
 	float:right;
-	width:250px;
+	width:85%;
 	margin:10px;
 }
 
 #images {
 	display:inline-block;
-	float:clear;
-	width:200px;
-	margin:5px;
+	float:left;
+	width:62.5%;
+	margin:5px auto;
 }
 
 .column {
@@ -142,18 +148,42 @@ a:active {
 }
 
 #content{
-	width: 600px;
+	width: 70%;
 	margin: 10px auto;
 	overflow: auto;
-	height: 600px;
+	height: 70%;
 }
 
 #aside{
-	width: 600px;
+	width: 25%;
 	margin: 10px auto;
 	overflow: auto;
-	height: 600px;  
+	height: 25%;  
 }
 
+th, td {
+	padding: 5px 30px 5px 20px
+	font-size: 0.9em;
+	margin: 0;
+	background-color:#e0e9f0;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right; 1px solid #cbd2d8;
+	text-shadow: 1px 1px 1px #fff;
+}
 
+table {
+	border-spacing: 0;
+	width: 60%;
+	text-align: left;
+	float:left;
+}
+
+.even th, .even td {
+	background-color: #e8eff5;
+}
+
+#redcar{
+	float:left;
+}
 
