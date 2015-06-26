@@ -121,10 +121,12 @@ th, td {
 }
 
 table {
-	border-spacing: 0;
+	border-spacing: 2px;
+	font-size: 1em;
 	width: 200px;
 	margin:1% 40%;	
 	text-align: left;
+	background-color: #dddddd;
 	
 }
 
