@@ -1,0 +1,213 @@
+/************************ Main Styles ************************/
+/* main code*/
+body {
+	width: 100%; /*900*/
+	height: 100% /*1920*/
+	margin: 0 auto;
+	font: 16px / 1.5 "Open Sans", sans-serif;
+	color: #3F505A;
+}
+
+head, header{
+	background:url("../images/BikeOutline.jpg")no-repeat top;
+	width:100%; /*900*/
+	height:20%;
+	overflow:auto;
+	text-align:center;
+	
+}
+
+nav li {
+	display: inline;
+	width:55%;	/*495/900*/
+	padding:0.01666666667%; /*15/900*/
+	color: #ddd;
+}
+
+nav {	
+	border-top:2px dotted #ddd;
+	border-bottom:2px dotted #ddd;
+	margin: 0px auto;
+	background-color:873539;
+	list-style-type: none;
+	text-align: center;	
+}
+h1, h2, strong {
+	color:#F7B719;
+}
+
+
+
+#mine{
+	float:left;
+	width:65%;
+	height:100%;
+}
+
+.mine-col{
+	clear:left;
+	display:block;
+	text-align:left;
+	overflow:auto;
+	
+}
+
+aside{
+	width:25%; /*225/900*/
+	height:25%; /*225/900*/
+	display:block;
+	float:left;
+	margin: 0 auto;
+	
+}
+
+table {
+	clear:both;
+	border-spacing: 2px;
+	font-size: 1em;
+	text-align: left;
+	background-color: #dddddd;
+	
+}
+
+#timeoff{
+	width:100%;
+	margin:35%;
+}
+
+th, td {
+	padding: 5%; /*5/900*/
+	font-size: 0.9em;
+	margin: 0;
+	background-color:#e0e9f0;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+img {
+	float: left;
+	border:1px solid #F7B719;
+	-moz-box-shadow: inset 0 0 10px #CFE6F4; 
+	-webkit-box-shadow: inset 0 0 10px #CFE6F4;
+	box-shadow: inset 0 0 10px #CFE6F4;
+}
+form{
+	background-color:#999;
+}
+
+footer{
+	font-size:12px;
+	margin: 0px auto;
+	clear:both;
+	height:5%;
+	overflow:auto;
+	
+	
+}
+.even th, .even td {
+	background-color: #e8eff5;
+}
+a:link	{
+	color: #F9F3A9;
+	text-decoration:none;
+}
+a:visited {
+	color:#F7B719;
+	font-style:bold;
+	text-decoration:underline;
+}
+a:hover {
+	color: #F9F3A9;
+	text-decoration: underline;
+}
+a:active {
+	color: #F7B719;
+	text-decoration:underline;
+}	
+
+/*CSS3 Selectors*/	
+
+/* child selector */
+ul > li {
+	font-style:italic;
+}
+
+/* attribute selector*/
+a[href$="jpg"] {
+	color:orange;
+	border: 1px dotted #CFE6F4; 
+}
+
+/* structural pseudo class*/
+span:first-child {
+	font-size:1.3em;
+	font-weight:bold;
+	color:873539;
+}
+
+
+/* adjacent selector*/
+h2 + p{
+	margin-top:.7em;
+	font-style: bold;	
+}
+
+/* nth-child selector*/ 
+#even:nth-child(2){
+	background:#873539;
+}
+
+/* media screen selectors 480 / 600 / 900 */
+
+@media screen and (max-width:480px) {
+	body{
+		text-align:center;
+	}
+	head, header, nav{
+		text-align: center;
+		display:block;
+	}
+	aside{
+		clear:right;
+		display:none;
+	}
+	table{
+		display:none;
+	}
+	nav li{
+		display:inline-block;
+		width:100%;/*480*/
+	}
+
+}
+
+@media screen and (max-width:600px) {
+
+	h2 > a[href$="jpg"]{
+		min-width = 100%;
+	}
+	
+	aside{
+		display:none;
+	}
+	
+	li{
+		display:inline;
+	}
+	
+}
+
+@media screen and (max-width:768px) {
+	aside{
+		clear:both;
+	}
+	
+	li{
+		display:inline;
+	}
+	#timeoff{
+		width:100%;
+	}
+}
